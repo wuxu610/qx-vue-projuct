@@ -34,7 +34,6 @@ export default {
             const foundArticle = articles.find(article => article.id === id);
             if (foundArticle) {
                 this.article = foundArticle;
-                console.log("article",this.article);
             } else {
                 console.log("没有找到文章");
             }

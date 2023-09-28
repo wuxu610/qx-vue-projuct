@@ -1,4 +1,3 @@
-// src/http/index.js
 //创建统一请求api
 import axios from './axios'
 /**
@@ -8,7 +7,7 @@ import axios from './axios'
 */
 const login = (data) => {
     return axios.request({
-        url: '',
+        url: 'api/mobile/elogin',//   =    baseURL+url  api/mobile/elogin
         method: 'post',
         data
     })

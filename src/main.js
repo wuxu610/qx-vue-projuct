@@ -15,6 +15,5 @@ app.use(router);
 app.use(pinia);
 app.mount('#app'); //挂在index.html
 
-
 app.config.globalProperties.$axios = axios;
 
